@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-Our docking program is based on Autodock-Vina and we modified and improved on it. The scoring function used by koto is the same as Vina, it's simpler but faster to search. This guide describes how to use Autodock-Koto for molecular docking and use AutoDockTools(https://ccsb.scripps.edu/mgltools/downloads/) to generate related files and to analyze results. The following steps are semi-flexible docking processes for a protein and a ligand. Here we assume that you've got the original protein and the small molecule to dock with from the relevant database. 
+The molecular docking program Koto is based on a new method--gradient boosting differential evolution algorithm as the search strategy. Meanwhile,  the scoring function used by koto is the same as Vina, it's simpler but faster to search. This guide describes how to use Autodock-Koto for molecular docking and use AutoDockTools(https://ccsb.scripps.edu/mgltools/downloads/) to generate related files and to analyze results. The following steps are semi-flexible docking processes for a protein and a ligand. Here we assume that you've got the original protein and the small molecule to dock with from the relevant database. 
 
 
 ## 2.Preparing PDBQT files
